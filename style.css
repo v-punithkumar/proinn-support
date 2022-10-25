@@ -235,6 +235,7 @@ header {
     position: relative;
     background-color: #fefefe;
     margin: auto;
+	margin-top: 90px;
     padding: 0;
     border: 1px solid #888;
     width: 60%;
