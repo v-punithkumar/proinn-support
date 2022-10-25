@@ -42,10 +42,15 @@ $(window).on('resize', function() {
 
     // Get the button that opens the modal
     var btn = document.getElementById("Segmentation");
+    var modal1 = document.getElementById('extraction-mod');
+
+    // Get the button that opens the modal
+    var btn1 = document.getElementById("extraction");
     
 
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
+    var span1 = document.getElementsByClassName("close1")[0];
 
     // When the user clicks the button, open the modal 
     btn.onclick = function() {
@@ -57,13 +62,25 @@ $(window).on('resize', function() {
     span.onclick = function() {
         modal.style.display = "none";
     }
+    span1.onclick = function() {
+        modal1.style.display = "none";
+    }
 
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = "none";
         }
-    }    
+        if (event.target == modal1) {
+            modal1.style.display = "none";
+        }
+    }
+    btn1.onclick = function() {
+        console.log("button clicked");
+          modal1.style.display = "block";
+      }
+  
+      // When the user clicks on <span> (x), close the modal    
     
 console.log("code executed 2");
 
