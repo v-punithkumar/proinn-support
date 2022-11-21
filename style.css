@@ -251,7 +251,7 @@ header {
     margin: auto;
     padding: 0;
     border: 1px solid rgba(0, 0, 0, 0);
-    width: 80%;
+    width: 70%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0),0 6px 20px 0 rgba(0, 0, 0, 0);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
@@ -307,8 +307,8 @@ header {
 
 .modal-body {
     margin: 0;
-    background-color: white;
-    padding: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0;
 }
 
 .modal-footer {
@@ -437,7 +437,7 @@ div#content_area { float: right; width: calc(100%); min-height: calc(100% - 100p
 
 
 
-div#content_window { float: left; margin-top: 30px; width: 100%; min-width: 300px; min-height: 100px; background-color: #fff; border: 1px solid #e9eaec; border-bottom: 1px solid #d4d6d9; border-radius: 4px; }
+div#content_window { float: left; margin-top: 2px; width: 100%; min-width: 300px; min-height: 100px; background-color: #fff; border: 1px solid #e9eaec; border-bottom: 1px solid #d4d6d9; border-radius: 4px; }
 div#content_window_title { float: left; margin-top: 30px; margin-left: 30px; margin-right: 0px; min-height: 40px; width: 100%; font-size: 24px; line-height: 40px; }
 div#content_window_title.small { margin-top: 20px;  font-weight: 600; color: #002d69; }
 a#content_window_text { float: left; margin: 0px; margin-left: 30px; min-height: 26px; width: calc(100% - 60px); color: #000; font-size: 16px; line-height: 26px; text-align: justify; }
