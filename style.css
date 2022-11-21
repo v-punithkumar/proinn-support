@@ -299,9 +299,10 @@ header {
 }
 
 .modal-header {
-    padding: 2px 16px;
     background-image: url("https://proinnconsultancy.com/wp-content/uploads/2022/11/theater-01.jpg");
     color: white;
+    padding: 13px 16px;
+    margin: 67px 0px 0px 0px;
 }
 
 .modal-body {
